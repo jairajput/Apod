@@ -20,6 +20,4 @@ The app utilizes a JSON file containing an array of data entries, each represent
 4. **Explore the Archive:** Access the archive to view past images and their explanations.
 5. **High-Quality Viewing:** Tap on an image to view it in high resolution.
 
-<img width="331" alt="Screenshot 2023-12-20 at 7 10 34 PM" src="https://github.com/jairajput/NasaApp/assets/80166407/802e84cb-348c-4957-b96a-4b625f4c7d02">
-<img width="331" alt="Screenshot 2023-12-209 at 7 11 08 PM" src="https://github.com/jairajput/NasaApp/assets/80166407/1403de9b-ec4a-4345-915e-d1e9c000b6c8">
 
