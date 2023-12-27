@@ -8,15 +8,39 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+  
+  
+  @State private var isShowingSettings: Bool = false
+  
+  var apod: [Apod] = ApodData
+
+
+
+  var body: some View {
+    NavigationView {
+      List {
+        ForEach(apod.shuffled()) { item in
+            NavigationLink(destination: ApodDetailView(apod: item)) {
+            ApodRowView(apod: item)
+              .padding(.vertical, 4)
+          }
         }
-        .padding()
+      }
+      .navigationTitle("Apod")
+      .navigationBarItems(
+        trailing:
+          Button(action: {
+            isShowingSettings = true
+          }) {
+            Image(systemName: "slider.horizontal.3")
+          }
+          .sheet(isPresented: $isShowingSettings) {
+            SettingsView()
+          }
+      )
     }
+    .navigationViewStyle(StackNavigationViewStyle())
+  }
 }
 
 #Preview {
