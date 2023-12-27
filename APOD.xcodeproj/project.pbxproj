@@ -13,6 +13,8 @@
 		D8C6A9AD2B3C44AF00C316FC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8C6A9AC2B3C44AF00C316FC /* Preview Assets.xcassets */; };
 		D8C6A9B62B3C452C00C316FC /* ApodData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9B52B3C452C00C316FC /* ApodData.swift */; };
 		D8C6A9B82B3C454500C316FC /* ApodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9B72B3C454500C316FC /* ApodModel.swift */; };
+		D8C6A9BA2B3C46E600C316FC /* ApodCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9B92B3C46E600C316FC /* ApodCardView.swift */; };
+		D8C6A9BC2B3C470200C316FC /* Apod.json in Resources */ = {isa = PBXBuildFile; fileRef = D8C6A9BB2B3C470200C316FC /* Apod.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		D8C6A9AC2B3C44AF00C316FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D8C6A9B52B3C452C00C316FC /* ApodData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodData.swift; sourceTree = "<group>"; };
 		D8C6A9B72B3C454500C316FC /* ApodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodModel.swift; sourceTree = "<group>"; };
+		D8C6A9B92B3C46E600C316FC /* ApodCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodCardView.swift; sourceTree = "<group>"; };
+		D8C6A9BB2B3C470200C316FC /* Apod.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Apod.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,7 @@
 				D8C6A9A72B3C44AD00C316FC /* ContentView.swift */,
 				D8C6A9A92B3C44AF00C316FC /* Assets.xcassets */,
 				D8C6A9AB2B3C44AF00C316FC /* Preview Content */,
+				D8C6A9BB2B3C470200C316FC /* Apod.json */,
 			);
 			path = APOD;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 		D8C6A9B42B3C44E500C316FC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				D8C6A9B92B3C46E600C316FC /* ApodCardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -147,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D8C6A9BC2B3C470200C316FC /* Apod.json in Resources */,
 				D8C6A9AD2B3C44AF00C316FC /* Preview Assets.xcassets in Resources */,
 				D8C6A9AA2B3C44AF00C316FC /* Assets.xcassets in Resources */,
 			);
@@ -162,6 +169,7 @@
 				D8C6A9A82B3C44AD00C316FC /* ContentView.swift in Sources */,
 				D8C6A9A62B3C44AD00C316FC /* APODApp.swift in Sources */,
 				D8C6A9B62B3C452C00C316FC /* ApodData.swift in Sources */,
+				D8C6A9BA2B3C46E600C316FC /* ApodCardView.swift in Sources */,
 				D8C6A9B82B3C454500C316FC /* ApodModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
