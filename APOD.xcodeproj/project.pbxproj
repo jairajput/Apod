@@ -18,6 +18,8 @@
 		D8C6A9BE2B3C47CD00C316FC /* StartButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9BD2B3C47CD00C316FC /* StartButtonView.swift */; };
 		D8C6A9C02B3C483600C316FC /* ApodRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9BF2B3C483600C316FC /* ApodRowView.swift */; };
 		D8C6A9C22B3C48C900C316FC /* ApodHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9C12B3C48C900C316FC /* ApodHeaderView.swift */; };
+		D8C6A9C42B3C494900C316FC /* SettingRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9C32B3C494900C316FC /* SettingRowView.swift */; };
+		D8C6A9C62B3C496800C316FC /* SettingLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8C6A9C52B3C496800C316FC /* SettingLabelView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		D8C6A9BD2B3C47CD00C316FC /* StartButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartButtonView.swift; sourceTree = "<group>"; };
 		D8C6A9BF2B3C483600C316FC /* ApodRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodRowView.swift; sourceTree = "<group>"; };
 		D8C6A9C12B3C48C900C316FC /* ApodHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApodHeaderView.swift; sourceTree = "<group>"; };
+		D8C6A9C32B3C494900C316FC /* SettingRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingRowView.swift; sourceTree = "<group>"; };
+		D8C6A9C52B3C496800C316FC /* SettingLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingLabelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +104,8 @@
 				D8C6A9BD2B3C47CD00C316FC /* StartButtonView.swift */,
 				D8C6A9BF2B3C483600C316FC /* ApodRowView.swift */,
 				D8C6A9C12B3C48C900C316FC /* ApodHeaderView.swift */,
+				D8C6A9C32B3C494900C316FC /* SettingRowView.swift */,
+				D8C6A9C52B3C496800C316FC /* SettingLabelView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -183,6 +189,8 @@
 				D8C6A9BA2B3C46E600C316FC /* ApodCardView.swift in Sources */,
 				D8C6A9B82B3C454500C316FC /* ApodModel.swift in Sources */,
 				D8C6A9C22B3C48C900C316FC /* ApodHeaderView.swift in Sources */,
+				D8C6A9C62B3C496800C316FC /* SettingLabelView.swift in Sources */,
+				D8C6A9C42B3C494900C316FC /* SettingRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
