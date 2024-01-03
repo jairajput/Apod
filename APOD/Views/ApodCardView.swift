@@ -50,13 +50,13 @@ struct ApodCardView: View {
             }
         }
         .frame(minWidth: 0, maxWidth: .infinity, minHeight: 0, maxHeight: .infinity, alignment: .center)
-        .background(
-            LinearGradient(
-                           gradient: Gradient(colors: [Color(red: 0.9, green: 0.85, blue: 0.7), Color(red: 0.75, green: 0.65, blue: 0.5)]),
-                           startPoint: .topLeading,
-                           endPoint: .bottomTrailing
-                       )
-        )
+//        .background(
+//            LinearGradient(
+//                           gradient: Gradient(colors: [Color(red: 0.9, green: 0.85, blue: 0.7), Color(red: 0.75, green: 0.65, blue: 0.5)]),
+//                           startPoint: .topLeading,
+//                           endPoint: .bottomTrailing
+//                       )
+//        )
         .cornerRadius(20)
 //        .padding(.horizontal, 20)
         .ignoresSafeArea(.all)

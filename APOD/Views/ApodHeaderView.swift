@@ -12,11 +12,11 @@ struct ApodHeaderView: View {
     @State private var isAnimatingImage:Bool = false
     var body: some View {
         ZStack{
-            LinearGradient(
-                gradient: Gradient(colors: [Color(red: 0.9, green: 0.85, blue: 0.7), Color(red: 0.75, green: 0.65, blue: 0.5)]),
-                startPoint: .topLeading,
-                endPoint: .bottomTrailing
-            )
+//            LinearGradient(
+//                gradient: Gradient(colors: [Color(red: 0.9, green: 0.85, blue: 0.7), Color(red: 0.75, green: 0.65, blue: 0.5)]),
+//                startPoint: .topLeading,
+//                endPoint: .bottomTrailing
+//            )
             if let url = URL(string: apod.url) {
                 AsyncImage(url: url) { image in
                     // Display the loaded image

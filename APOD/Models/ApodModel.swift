@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct Apod:Identifiable {
+struct Apod:Identifiable, Hashable{
     var id = UUID()
     var copyright: String
     var date : String
